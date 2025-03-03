@@ -1,0 +1,162 @@
+<html>
+	<head>
+		<title>Cola prova</title>
+	</head>
+	<body>
+		<h1>Essa tag é um titulo personalizado</h1>
+		<h2>Herarquia de titulos vai do H1 ao H6</h2>
+		<hr>
+		<p>A tag de cima (hr) faz essa linha aparecer, ela é uma tag auto fechada e que pode ser editada em css, largura, cor e etc</p>
+		<button>Esse é um botão</button><p>O botão pode ter 3 tipos, o simples, o reset e o submit</p>
+		<button type="submit">Esse é um botão submit, envia coisas</button>
+		<button type="reset">Esse é um botão reset, reseta dados de algo</button><p>Botão também possui onclick que indica algo quando clicado</p>
+		<button onclick="alert('Esse botão foi clicado')">Botão com onclick</button>
+		<p>Os botões também podem ser editados<p>
+		<img src="exemplo.jpg" title="arvores" alt="arvores com ilusão de otica em azul e tons de marrom" width="300" height="300"/>
+<p>A tag src serve para direcionar onde esta o caminho da imagem</p>
+<p>A tag title serve para indicar qual titulo vai aparecer na imagem quando o mouse passar por cima</p>
+<p>A tag alt serve para quando a imagem não puder ser carregada essa descrição apareça</p>
+<p>As tags width e height definem a largura e a altura da imagem</p>
+		<br><p>A tag br serve para pular linha</p>
+		<h1>FORMULARIO PESSOAL</h1>
+		<form action="index.html" method="get">
+		<label>Nome: </label>
+		<input
+			name="nome"
+			value=""
+			type="text"
+		/>
+<br><br>
+		<label>Idade: </label>
+		<input
+			name="idade"
+			value=""
+			type="number"
+		/>
+
+<br><br>
+		<label>Salário</label>
+		<input
+			name="salario"
+			value=""
+			type="number"
+			max="5000"
+			min="1000"
+			step="0.1"
+		/>
+<br><br>
+		<label>Email</label>
+		<input
+			name="email"
+			value=""
+			type="email"
+		/>
+<br><br>
+		<label>Data de nascimento</label>
+		<input
+			name="data"
+			value=""
+			type="date"
+		/>
+	</form>
+<p>A tag action indica para onde os dados digitados vão ir</p>
+<p>A tag method indica qual metodo vamos usar o GET um metodo para informações publicas, POST um metodo para informações privadas</p>
+<p>A tag label indica o que será colocado no campo</p>
+<p>A tag input abre um retangulo para escrevermos dentro dele</p>
+<p>As tags name, value e type indicam o nome da variavel, o valor que ela possui e o tipo dela</p>
+<p>As tags max, min e step indicam, max=o maximo que aquela variavel chega, min=o minimo que chega e step é de quanto em quanto aquela variavel vai</p>
+<br>
+		<h1>FORMULARIO ESCOLHA</h1>
+		<form action="index.html" method="get">
+		<input 
+			name="bolinha"
+			value="Corinthians"
+			type="radio"
+		/><label>Corinthians</label>
+		
+		<input
+			name="bolinha"
+			value="Santos"
+			type="radio"
+		/><label>Santos</label>
+		</form>
+<p>Quando o type for igual a radio vai abrir o campo de escolha entre uma ou outra opção</p>
+<p>Em cada um dos inputs precisa estar o mesmo valor na variavel name</p>
+<br>
+		<h1>FORMULARIO CHECKBOX</h1>
+		<form action="index.html" method="get">
+		<input
+			name="time"
+			value="palmeilixo"
+			type="checkbox"
+		/><label>Palmeilixo</label>
+		<input
+			name="time"
+			value="corinthians"
+			type="checkbox"
+		/><label>Coringão</label>
+		</form>
+<p>Quando o type for igual a checkbox vai abrir quadrados onde voce pode marcar mais de uma opção</p>
+<p>Em cada um dos inputs precisa estar o mesmo valor na variavel name</p>
+<br>
+		<h1>TABELA</h1>
+		<table border=1>
+			<caption>Tabela de alunos</caption>	
+		<thead>
+			
+			<tr>
+				<th>Nome</th>
+				<th>Turma</th>
+				<th>Periodo</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Ana</td>
+				<td>Informatica</td>
+				<td>Tarde</td>
+			</tr>
+			<tr>
+				<td>Nalu</td>
+				<td>Desenvolvimento de sistema</td>
+				<td>Noite</td>
+			</tr>
+			<tr>
+				<td>Bruna</td>
+				<td>Serviço juridicos</td>
+				<td>Tarde</td>
+			</tr>
+			<tr>
+				<td>Maria</td>
+				<td>Açucar e alcool</td>
+				<td>Manhã</td>
+			</tr>
+		</tbody>
+		</table>
+<p>A tag table serve para se formar a tabela</p>
+<p>A tag border serve para definir o tamanho da borda da tabela</p>
+<p>A tag tr serve para criar uma celula de coluna</p>
+<p>A tag th serve para criar uma celula destacada de linha</p>
+<p>A tag td serve para criar uma celula não destacada de linha</p>
+<p>A tag thead define o que é a cabeça da tabela</p>
+<p>A tag tbody define o que é o corpo da tabela</p>
+<p>A tag caption coloca um titulo para tabela</p>
+<br>
+		<h1>LISTA COM MARCADOR</h1>
+		<ul>
+			<li>Nome</li>
+			<li>Turma</li>
+			<li>Periodo</li>
+		</ul>
+<br>
+		<h1>LISTA COM NUMEROS</h1>
+		<ol>
+			<li>Nome</li>
+			<li>Turma</li>
+			<li>Periodo</li>
+		</ol>
+<p>A tag strong define uma palavra ou frase para ficar em <strong>negrito</strong> desse jeito</p>
+<p>A tag em define uma palavra ou frase para ficar em <em>italico</em> desse jeito</p>
+<p><strong><em>Frase em negrito e italico</em></strong></p>
+	</body>
+<html>
