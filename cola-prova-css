@@ -1,0 +1,17 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif; /*Serve para definir qual a fonte*/
+    background-color: #fdf00f/*Cor de fundo*/
+}
+img{
+    border:5px solid #0000ff /*Define uma borda de 5 pixel solida de cor azul*/
+}
+img:hover{/*Quando o mouse passar por cima vai acontecer oq estiver dentro dela*/
+    border: 5px solid #f5555f;/*Define uma borda de 5 pixel solida rosinha*/
+    border-radius: 50%; /*Faz a imagem ficar com os cantos arredondados*/
+    width: 320px;/*Faz a imagem aumentar para 320 pixel de largura*/
+    height:360px;/*Faz a imagem aumentar para 360 pixel de altura*/
+}
+.titulo{
+    background-color: #a0f;
+    color:#ffffff;
+}
