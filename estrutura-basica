@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags basicas</title>
+    <link rel="stylesheet" href="estruturabasica.css"/>
+</head>
+<body>
+    <div class="center"><h1>Estrutura básica html</h1></div>
+    <p>Tags basicas: HTML, Head, Title, Body</p>
+    <p>O HTML é uma tag essencial que serve para o começo de tudo</p>
+    <p>A tag Head é uma tag metadado que faz com que esta dentro dele não apareça para o usuário</p>
+    <p>A tag title serve para você dar um nome a pagina na parte de cima dela</p>
+    <p>A tag Body serve para dizer o que vai estar dentro do corpo do site</p>
+
+    <div class="center"><h1>Estrutura básica css</h1></div>
+    <p>Tags basicas: Seletores, Modelo de Caixa (Box Model) </p>
+    <p>A tag de seletores se divide em dois:</p>
+    <p>Seletor de elemento:</p>
+    <p>Serve para selecionar o elemento que deseja editar e aplica a edição em todos os elementos com aquela tag</p>
+    <p>Exemplo de tag seletor</p>
+    <h4>Textos com mesma tag h4</h4>
+    <h4>Textos com mesma tag h4</h4>
+    <p>Seletor de classe:</p>
+    <p>Serve para selecionar a classe de alguma tag em especifico</p>
+    <p>Exemplo de tag classe</p>
+    <div class="p">
+        <p>Texto com mesma tag p</p>
+    </div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body,html{
+    background-color: rgba(231, 212, 247, 0.589);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+h4{
+    background-color: #ff0faf;
+    border: 2px solid;
+}
+.p{
+    background-color: #7980e2;
+    color: #000;
+}
+.center{
+    background-color: rgb(226, 254, 255);
+    display: grid;
+    place-items: center;
+    height: 60px;
+    width: 100%;
+}
